@@ -1,14 +1,7 @@
-# =======================================
-# Equipo: Yaider martinez, Alan Andrés Orozco Sánchez, Juan Esteban pacheco
-# Proyecto: Taller de Git y Python
-# =======================================
-
-def suma(a, b):
-    return a + b
-
-def resta(a, b):
-    return a - b
+def dividir(a, b):
+    if b == 0:
+        return "Error: No se puede dividir entre 0"
+    return a / b
 
 if __name__ == "__main__":
-    print("Suma:", suma(10, 5))
-    print("Resta:", resta(10, 5))
+    print("División:", dividir(10, 2))
